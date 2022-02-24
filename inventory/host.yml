@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    group_one:
+      hosts:
+        192.168.1.1:
+        192.168.1.2:
+      vars:
+        foo: bar
